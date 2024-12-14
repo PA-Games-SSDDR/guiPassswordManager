@@ -1,7 +1,7 @@
 import tkinter as tk
 from tkinter import ttk, messagebox
 from tkinter import messagebox
-import json
+import os
 from cryptography.fernet import Fernet
 from store import Storage
 from cryptfuncs import hash_password,\
@@ -14,6 +14,7 @@ from cryptfuncs import hash_password,\
 # File to store passwords and encryption key
 MASTER_PASSWORD = ""
 storage = Storage("apasswords.json")
+basedir = os.path.dirname(__file__)
 
 
 # Logout function
@@ -58,6 +59,7 @@ def refresh_passwords():
 
 def show_add_dialog():
     main_frame.top = tk.Toplevel()
+    main_frame.top.iconbitmap(os.path.join(basedir, "icons", "Gui.ico"))
     main_frame.top.title("Add Password")
     main_frame.top.transient(main_frame)
     main_frame.top.minsize(300, 400)
@@ -145,6 +147,7 @@ def show_view_dialog():
         item = tree.item(selection[0])
         service, username = item['values']
         main_frame.topview = tk.Toplevel()
+        main_frame.topview.iconbitmap(os.path.join(basedir, "icons", "Gui.ico"))
         main_frame.topview.title("View Password")
         main_frame.topview.transient(main_frame)
         main_frame.topview.minsize(300, 400)
@@ -228,6 +231,7 @@ login_button.grid(row=1, column=0, columnspan=2, pady=10)
 
 # Main Frame
 main_frame = ttk.Frame(root)
+root.iconbitmap(os.path.join(basedir, "icons", "Gui.ico"))
 # Main frame - Toolbar
 toolbar = ttk.Frame(main_frame)
 toolbar.pack(fill=tk.X, padx=5, pady=5)
@@ -255,4 +259,5 @@ tree.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
 scrollbar.pack(side=tk.RIGHT, fill=tk.Y)
 
 # Start the application
+root.iconbitmap(os.path.join(basedir, "icons", "Gui.ico"))
 root.mainloop()
