@@ -1,5 +1,7 @@
 # guiPassswordManager
 
+<img src="https://raw.githubusercontent.com/SubrataSarkar32/guiPassswordManager/refs/heads/main/images/Gui.png" width="50">
+
 guiPasswordManager is a portable password manager built in python. It stores everything locally in a json file with encryption. It uses industry standard encryption and decryption methods provided with the help of cryptography python package. At present random password generation is dependent on python's random package but soon it will be replaced with some industry standard approach. Since everything gets stored locally there are very less chances of password leakage.
 
 ## Screenshots
