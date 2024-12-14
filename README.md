@@ -6,19 +6,19 @@ guiPasswordManager is a portable password manager built in python. It stores eve
 
   #### Login Screen
 
-  ![Login screen](https://github.com/SubrataSarkar32/guiPasswordManager/blob/master/images/LoginScreen.png?raw=true)
+  ![Login screen](https://raw.githubusercontent.com/SubrataSarkar32/guiPassswordManager/refs/heads/main/images/LoginScreen.png)
 
   #### Main Screen
 
-  ![Main screen](https://github.com/SubrataSarkar32/guiPasswordManager/blob/master/images/MainScreen.png?raw=true)
+  ![Main screen](https://raw.githubusercontent.com/SubrataSarkar32/guiPassswordManager/refs/heads/main/images/MainScreen.png)
 
   #### Add Password Screen
 
-  ![Add Password screen](https://github.com/SubrataSarkar32/guiPasswordManager/blob/master/images/AddPasswordScreen.png?raw=true)
+  ![Add Password screen](https://raw.githubusercontent.com/SubrataSarkar32/guiPassswordManager/refs/heads/main/images/AddPasswordScreen.png)
 
   #### View Password Screen
 
-  ![view Password screen](https://github.com/SubrataSarkar32/guiPasswordManager/blob/master/images/ViewPasswordScreen.png?raw=true)
+  ![view Password screen](https://raw.githubusercontent.com/SubrataSarkar32/guiPassswordManager/refs/heads/main/images/ViewPasswordScreen.png)
 
 ## Installation
 
