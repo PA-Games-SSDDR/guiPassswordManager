@@ -2,6 +2,24 @@
 
 guiPasswordManager is a portable password manager built in python. It stores everything locally in a json file with encryption. It uses industry standard encryption and decryption methods provided with the help of cryptography python package. At present random password generation is dependent on python's random package but soon it will be replaced with some industry standard approach. Since everything gets stored locally there are very less chances of password leakage.
 
+## Screenshots
+
+  #### Login Screen
+
+  ![Login screen](https://github.com/SubrataSarkar32/guiPasswordManager/blob/master/images/LoginScreen.png?raw=true)
+
+  #### Main Screen
+
+  ![Main screen](https://github.com/SubrataSarkar32/guiPasswordManager/blob/master/images/MainScreen.png?raw=true)
+
+  #### Add Password Screen
+
+  ![Add Password screen](https://github.com/SubrataSarkar32/guiPasswordManager/blob/master/images/AddPasswordScreen.png?raw=true)
+
+  #### View Password Screen
+
+  ![view Password screen](https://github.com/SubrataSarkar32/guiPasswordManager/blob/master/images/ViewPasswordScreen.png?raw=true)
+
 ## Installation
 
 1) Clone this repo with `git clone https://github.com/SubrataSarkar32/guiPassswordManager.git`
@@ -24,6 +42,9 @@ For Linux systems you can use Wine to run the .exe application on your system
 
 Link to Release page: [Release](https://github.com/SubrataSarkar32/guiPassswordManager/releases)
 
+## Usage Guide
+
+On the first run you setup the master password. Remember the passsword you type in. Click on `Login` and your master password will be set. Now you can add passwords to store and view. To logout click on `Logout`. Usage videos will be updated soon
 
 ## Donation
 
